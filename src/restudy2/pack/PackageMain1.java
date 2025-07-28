@@ -1,0 +1,17 @@
+package restudy2.pack;
+
+public class PackageMain1 {
+  public static void main(String[] args) {
+    Data data = new Data();
+    restudy2.pack.a.User user = new restudy2.pack.a.User();
+
+    /*
+    사용자와 같은 위치: PackageMain1과 Data는 같은 restudy2.pack이라는 패키지에 소속되어
+    있다. 이렇게 같은 패키지에 있는 경우에는 패키지 경로를 생략해도 된다.
+
+    사용자와 다른 위치: PackageMain1과 User는 서로 다른 패키지이다.
+    이렇게 패키지가 다르면 restudy2.pack.a.User와 같이 패키지 전체 경로를 포함해서
+    클래스를 적어주어야 한다.
+     */
+  }
+}
